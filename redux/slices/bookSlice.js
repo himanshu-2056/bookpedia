@@ -101,7 +101,7 @@ export const registerBook = (userData) => async (dispatch) => {
     dispatch(bookregisterStart());
 
     const response = await axios.post(
-      "https://bookpedia-backend.vercel.app/books/bookcreate",
+      "https://legacylibrary-backend.vercel.app/books/bookcreate",
       userData
     );
 
@@ -115,7 +115,7 @@ export const getBook = () => async (dispatch) => {
   try {
     dispatch(getBookStart());
     const response = await axios.get(
-      "https://bookpedia-backend.vercel.app/books/getbook"
+      "https://legacylibrary-backend.vercel.app/books/getbook"
     );
     dispatch(getBookSuccess(response.data));
   } catch (error) {
@@ -127,7 +127,7 @@ export const getSingleBook = (bookId) => async (dispatch) => {
   try {
     dispatch(getSingleBookStart());
     const response = await axios.get(
-      `https://bookpedia-backend.vercel.app/books/book/${bookId}`
+      `http://localhost:000/books/book/${bookId}`
     );
     dispatch(getSingleBookSuccess(response.data));
   } catch (error) {

@@ -48,7 +48,7 @@ const Navbar = () => {
                 className="h-10 w-10 rounded-xl object-cover"
                 alt=""
               />
-              <h1 className="text-center text-2xl font-semibold">BookPedia</h1>
+              <h1 className="text-center text-2xl font-semibold">LegacyLibrary</h1>
             </div>
           </Link>
         </div>
@@ -137,7 +137,7 @@ const Navbar = () => {
                     alt=""
                   />
                   <h1 className="text-center text-2xl font-semibold">
-                    BookPedia
+                    LegacyLibrary
                   </h1>
                 </div>
               </Link>

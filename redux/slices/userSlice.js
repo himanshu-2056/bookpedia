@@ -47,7 +47,7 @@ export const registerUser = (userData) => async (dispatch) => {
 
     // Make API call to register user
     const response = await axios.post(
-      "https://bookpedia-backend.vercel.app/users/register",
+      "https://legacylibrary-backend.vercel.app/users/register",
       userData
     );
 
@@ -63,7 +63,7 @@ export const loginUser = (userData) => async (dispatch, getState) => {
   try {
     dispatch(loginStart());
     const response = await axios.post(
-      "https://bookpedia-backend.vercel.app/users/login",
+      "https://legacylibrary-backend.vercel.app/users/login",
       userData
     );
     const userDetails = response.data;

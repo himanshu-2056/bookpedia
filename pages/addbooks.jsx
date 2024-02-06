@@ -109,7 +109,7 @@ const AddBooks = () => {
   return (
     <>
       <Head>
-        <title>Sign Up - BookPedia</title>
+        <title>Sign Up - LegacyLibrary</title>
       </Head>
       <Layout>
         <AuthLayout title="Add Books">

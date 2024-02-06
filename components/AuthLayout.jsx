@@ -28,7 +28,7 @@ export function AuthLayout({ title, subtitle, children }) {
               className="h-10 w-10 rounded-xl object-cover"
               alt=""
             />
-            <h1 className="text-center text-2xl font-semibold">BookPedia</h1>
+            <h1 className="text-center text-2xl font-semibold">LegacyLibrary</h1>
           </div>
         </Link>
         <div className="relative mt-12 sm:mt-16">

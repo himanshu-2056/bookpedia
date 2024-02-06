@@ -88,7 +88,7 @@ export default function Register() {
   return (
     <>
       <Head>
-        <title>Sign Up - BookPedia</title>
+        <title>Sign Up - LegacyLibrary</title>
       </Head>
       <AuthLayout
         title="Sign up for an account"
